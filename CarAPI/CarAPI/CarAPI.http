@@ -1,0 +1,11 @@
+@CarAPI_HostAddress = http://localhost:5174
+
+GET {{CarAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{CarAPI_HostAddress}}/api/Autoes/audi
+Accept: application/json
+
+GET {{CarAPI_HostAddress}}/api/Autoes/audi
+Accept: application/json

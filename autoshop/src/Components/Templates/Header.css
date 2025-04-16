@@ -1,0 +1,41 @@
+.nav-bar {
+    width: 100%;
+    max-width: 1200px;
+    height: 70px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.autoclass {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.autoclass:hover {
+    background-color: black;
+    color: white;
+}
+
+.autoclass.active {
+    text-decoration: underline;
+}
+
+.nav-bar img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-bar img:hover {
+    transform: scale(1.1);
+}
